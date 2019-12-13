@@ -5,8 +5,6 @@
 #include "driverlib/interrupt.h"
 
 
-
-
 /**
 * Initializes the adc.
 */

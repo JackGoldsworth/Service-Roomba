@@ -11,4 +11,4 @@ typedef struct Object {
 * This sweeps a servo motor 180 degrees and looks
 * for objects, and then returns an array of those objects.
 */
-Object* sweep(void);
+Object *sweep(void);
