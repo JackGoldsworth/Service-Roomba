@@ -36,8 +36,6 @@ Object* sweep(void) {
     while(degree < 181){
         servo_move(degree);
         adc_distance = 110831 * pow(adc_read(), -1.173); // Bot 9
-        //adc_distance = 127350 * pow(adc_read(), -1.291); // Bot 8
-        // Others?  (pow(adc_read(), -1.083)*57496);//49869 * pow(adc_read(), -1.066); //
 
         // Detect Objects
         if(adc_distance <= range && objArray[objectIndex].startAngle == 0 && degree > 3) {

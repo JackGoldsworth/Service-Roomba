@@ -23,7 +23,7 @@ void uart_sendChar(char data);
 
 int uart_receive(void);
 
-void uart_sendStr(const char *data);
+void uart_sendStr(const char* data);
 
 
 #endif /* UART_H_ */
